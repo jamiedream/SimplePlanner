@@ -1,0 +1,350 @@
+#top {
+    font-size:2em;
+    color:#851717;
+    font-weight: 700;
+    font-family: "Kristen ITC",微軟正黑體;
+}
+#top2 {
+    font-size:1em;
+    color:#851717;
+    font-weight: 500;
+    font-family: "Kristen ITC",微軟正黑體;
+}
+/*header*/
+
+#top3 {
+    width:500px;
+    font-size:1em;
+    color:#851717;
+    font-weight: 700;
+    font-family: "Kristen ITC",微軟正黑體;
+}
+
+@-webkit-keyframes fadein{
+    0%{opacity: 0;}
+    50%{opacity: 0.4;}
+    100%{opacity: 1;}
+}
+
+@-moz-keyframes fadein{
+    0%{opacity: 0;}
+    50%{opacity: 0.4;}
+    100%{opacity: 1;}
+}
+
+#intro{
+    padding-left: 330px;
+    font-family: 微軟正黑體;
+    font-size: 1em;
+    color: #0e7e6b;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-name: fadein;
+    -moz-animation-duration: 5s;
+    -moz-animation-name: fadein;
+    -ms-animation-duration: 5s;
+    -ms-animation-name: fadein;
+    -o-animation-duration: 5s;
+    -o-animation-name: fadein;
+}
+#intro-one {
+    padding-left: 400px;
+    font-family: 微軟正黑體;
+    font-size: 1em;
+    color: #0e7e6b;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-name: fadein;
+    -moz-animation-duration: 6s;
+    -moz-animation-name: fadein;
+    -ms-animation-duration: 6s;
+    -ms-animation-name: fadein;
+    -o-animation-duration: 6s;
+    -o-animation-name: fadein;
+}
+#intro-two {
+    padding-left: 470px;
+    font-family: 微軟正黑體;
+    font-size: 1em;
+    color: #0e7e6b;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation-duration: 9s;
+    -webkit-animation-name: fadein;
+    -moz-animation-duration: 9s;
+    -moz-animation-name: fadein;
+    -ms-animation-duration: 9s;
+    -ms-animation-name: fadein;
+    -o-animation-duration: 9s;
+    -o-animation-name: fadein;
+}
+#intro-three {
+    padding-left: 540px;
+    font-family: 微軟正黑體;
+    font-size: 1em;
+    color: #0e7e6b;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation-duration: 12s;
+    -webkit-animation-name: fadein;
+    -moz-animation-duration: 12s;
+    -moz-animation-name: fadein;
+    -ms-animation-duration: 12s;
+    -ms-animation-name: fadein;
+    -o-animation-duration: 12s;
+    -o-animation-name: fadein;
+}
+#intro-four {
+    padding-left: 610px;
+    font-family: 微軟正黑體;
+    font-size: 1em;
+    color: #0e7e6b;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-name: fadein;
+    -moz-animation-duration: 15s;
+    -moz-animation-name: fadein;
+    -ms-animation-duration: 15s;
+    -ms-animation-name: fadein;
+    -o-animation-duration: 15s;
+    -o-animation-name: fadein;
+}
+
+#stitched {
+   position: absolute;
+   right:calc(50% - 50px);
+   bottom:10px;
+   padding: 10px;
+   width: 100px;
+   height:30px;
+   background: #ff0030;
+   color: #fff;
+   font-size: 30px;
+   font-weight: bold;
+   line-height: 1em;
+   border: 2px dashed #fff;
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-shadow: -1px -1px #aa3030;
+   font-weight: normal;
+}
+
+/*content*/
+
+#txtTextArea{
+    width:500px;
+    height: 300px;
+}
+#transit{
+    width:500px;
+    
+}
+
+.ui-bar-a {
+    background: #111;
+    color: #000;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 #000;
+    background-image: -webkit-gradient(linear, top, bottom, from(#e39696), to(#fff));
+    background-image: -webkit-linear-gradient(#e39696, #fff);
+    background-image: -moz-linear-gradient(#e39696, #fff);
+    background-image: -ms-linear-gradient(#e39696, #fff);
+    background-image: -o-linear-gradient(#e39696, #fff);
+    background-image: linear-gradient(#e39696, #fff)
+}
+
+.ui-bar-a,
+.ui-bar-a input,
+.ui-bar-a select,
+.ui-bar-a textarea,
+.ui-bar-a button {
+    font-family: 微軟正黑體,"Times New Roman", Arial, sans-serif;
+}
+
+.ui-bar-a .ui-link-inherit {
+    color: #000fff
+}
+
+.ui-bar-a a.ui-link {
+    color: #7cc4e7;
+    font-weight: 700
+}
+
+.ui-bar-a a.ui-link:visited {
+    color: #2489ce
+}
+
+.ui-bar-a a.ui-link:hover {
+    color: #2489ce
+}
+
+.ui-bar-a a.ui-link:active {
+    color: #2489ce
+}
+
+.ui-body-a,
+.ui-overlay-a {
+    border: none;
+    background: #222;
+    color: #000;
+    text-shadow: 0 1px 0 #111;
+    font-weight: 400;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#444), to(#222));
+    background-image: -webkit-linear-gradient(#444, #222);
+    background-image: -moz-linear-gradient(#444, #222);
+    background-image: -ms-linear-gradient(#444, #222);
+    background-image: -o-linear-gradient(#444, #222);
+    background-image: linear-gradient(#444, #222)
+}
+
+.ui-overlay-a {
+    background-image: none;
+    border-width: 0
+}
+
+.ui-body-a,
+.ui-body-a input,
+.ui-body-a select,
+.ui-body-a textarea,
+.ui-body-a button {
+    font-family: Helvetica, Arial, sans-serif
+}
+
+.ui-body-a .ui-link-inherit {
+    color: #000
+}
+
+.ui-body-a .ui-link {
+    color: #2489ce;
+    font-weight: 700
+}
+
+.ui-body-a .ui-link:visited {
+    color: #2489ce
+}
+
+.ui-body-a .ui-link:hover {
+    color: #2489ce
+}
+
+.ui-body-a .ui-link:active {
+    color: #2489ce
+}
+
+.ui-btn-up-a {
+    border: 1px none #111;
+    background: #333;
+    font-weight: 700;
+    color: #000;
+    text-shadow: 0 1px 0 #111;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#b06b91), to(#ffffff));
+    background-image: -webkit-linear-gradient(#b06b91, #ffffff);
+    background-image: -moz-linear-gradient(#b06b91, #ffffff);
+    background-image: -ms-linear-gradient(#b06b91, #ffffff);
+    background-image: -o-linear-gradient(#b06b91, #ffffff);
+    background-image: linear-gradient(#b06b91, #ffffff)
+}
+
+.ui-btn-up-a:visited,
+.ui-btn-up-a a.ui-link-inherit {
+    color: #000
+}
+
+.ui-btn-hover-a {
+    border: 1px none #000;
+    background: #444;
+    font-weight: 700;
+    color: #000;
+    text-shadow: 0 1px 0 #111;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#555), to(#383838));
+    background-image: -webkit-linear-gradient(#555, #383838);
+    background-image: -moz-linear-gradient(#555, #383838);
+    background-image: -ms-linear-gradient(#555, #383838);
+    background-image: -o-linear-gradient(#555, #383838);
+    background-image: linear-gradient(#555, #383838)
+}
+
+.ui-btn-hover-a:visited,
+.ui-btn-hover-a:hover,
+.ui-btn-hover-a a.ui-link-inherit {
+    color: #f4e1d7
+}
+
+.ui-btn-down-a {
+    border: none;
+    background: #222;
+    font-weight: 700;
+    color: #000;
+    text-shadow: 0 1px 0 #111;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#202020), to(#2c2c2c));
+    background-image: -webkit-linear-gradient(#202020, #2c2c2c);
+    background-image: -moz-linear-gradient(#202020, #2c2c2c);
+    background-image: -ms-linear-gradient(#202020, #2c2c2c);
+    background-image: -o-linear-gradient(#202020, #2c2c2c);
+    background-image: linear-gradient(#202020, #2c2c2c)
+}
+
+.ui-btn-down-a:visited,
+.ui-btn-down-a:hover,
+.ui-btn-down-a a.ui-link-inherit {
+    color: #000
+}
+
+.ui-btn-up-a,
+.ui-btn-hover-a,
+.ui-btn-down-a {
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none
+}
+
+#listview{
+    text-shadow: 0 1px 0 #000;
+    border: none;
+    font-family: 微軟正黑體;
+    font-size: 1em;
+    color:#000;
+    background-image: -webkit-gradient(linear,#fff,#3C1106,#fff);
+    background-image: -webkit-linear-gradient(#fff,#3C1106, #fff);
+    background-image: -moz-linear-gradient(#fff,#3C1106, #fff);
+    background-image: -ms-linear-gradient(#fff,#3C1106, #fff);
+    background-image: -o-linear-gradient(#fff,#3C1106, #fff);
+    background-image: linear-gradient(#fff,#3C1106, #fff)
+}
+
+#myPanel{
+    background:#4F0B0B;
+    opacity: 0.9;
+    font-family: 微軟正黑體;
+    text-shadow: 0 1px 0 #fff;
+    color:#fff;
+    font-weight: bold;
+}
+/*panel*/
+
+#logout{
+    position:relative;
+    color: #000;
+    text-decoration: none;
+	background: #eeebeb;
+	opacity: 0.4;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px;
+	font-family: 'Kristen ITC',微軟正黑體,'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px;
+    top:10px;
+    right:20px;
+    width:60px;
+    height: 25px;
+    z-index: 5;
+}
+
+
+/*logout*/
+
+

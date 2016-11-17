@@ -1,0 +1,349 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(../pic/login.jpg);
+	background-size: 100%;
+	-webkit-filter: blur(5px);
+	z-index: 0;
+	background-repeat:no-repeat;
+}
+
+.grad{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+}
+
+
+.header{
+	position: absolute;
+	top: 250px;
+	left: 250px;
+	z-index: 1;
+}
+
+.header div{
+	float: left;
+	color: #fff;
+	font-family: 'Kristen ITC',微軟正黑體,'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 500;
+	text-shadow: 2px 2px 8px #bce2f4;
+	 
+}
+
+.header div span{
+	color: #0d6b98;
+}
+
+/*body*/
+
+.login{
+	position: absolute;
+	top: 230px;
+	left: 600px;
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid #e1e8ec;
+	border-radius: 5px;
+	color: #fff;
+	font-family: 'Kristen ITC','Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid #e1e8ec;
+	border-radius: 5px;
+	color: #fff;
+	font-family: 'Kristen ITC','Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=email]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid #e1e8ec;
+	border-radius: 5px;
+	color: #fff;
+	font-family: 'Kristen ITC','Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=button]{
+	width: 123px;
+	height: 35px;
+	background: #04283a;
+	border: 1px solid #04283a;
+	cursor: pointer;
+	border-radius: 20px;
+	color: #eeeae3;
+	font-family: 'Kristen ITC','Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=submit]{
+	width: 123px;
+	height: 35px;
+	background: #04283a;
+	border: 1px solid #04283a;
+	cursor: pointer;
+	border-radius: 20px;
+	color: #eeeae3;
+	font-family: 'Kristen ITC','Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=submit]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid #000;
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid #000;
+}
+
+.login input[type=email]:focus{
+	outline: none;
+	border: 1px solid #000;
+}
+
+::-webkit-input-placeholder{
+   color: #e7e3e3;
+}
+::-moz-input-placeholder{
+   color: #e7e3e3;
+}
+::-ms-input-placeholder{
+   color: #e7e3e3;
+}
+::-o-input-placeholder{
+   color: #e7e3e3;
+}
+
+/*login*/
+
+.register{
+	position: absolute;
+	top: 180px;
+	left: 600px;
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.register legend{
+	padding: 10px;
+	color: #fff;
+	font-family: 'Kristen ITC',微軟正黑體,'Exo', sans-serif;
+	font-size: 20px;
+	font-weight: 400;	
+	
+}
+
+.register p{
+	padding: 5px;
+	color: #fff;
+	font-family: 'Kristen ITC',微軟正黑體,'Exo', sans-serif;
+	font-size: 14px;
+	font-weight: 500;	
+	
+}
+
+.register p a{
+	text-decoration: none;
+	color:#c6cbce;
+}
+
+.register p a:hover{
+	color:#ebf0f2;
+}
+
+.register p a:active{
+	opacity: 0.6;
+}
+
+.register input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid #e1e8ec;
+	border-radius: 5px;
+	color: #fff;
+	font-family: 'Kristen ITC',微軟正黑體,'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin: 5px;
+}
+
+.register input[type=email]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid #e1e8ec;
+	border-radius: 5px;
+	color: #fff;
+	font-family: 'Kristen ITC',微軟正黑體,'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin: 5px;
+}
+
+
+.register input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid #e1e8ec;
+	border-radius: 5px;
+	color: #fff;
+	font-family: 'Kristen ITC',微軟正黑體,'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin: 5px;
+}
+
+.register input[type=button]{
+	width: 123px;
+	height: 35px;
+	background: #04283a;
+	border: 1px solid #04283a;
+	cursor: pointer;
+	border-radius: 20px;
+	color: #eeeae3;
+	font-family: 'Kristen ITC',微軟正黑體,'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.register input[type=submit]{
+	width: 123px;
+	height: 35px;
+	background: #04283a;
+	border: 1px solid #04283a;
+	cursor: pointer;
+	border-radius: 20px;
+	color: #eeeae3;
+	font-family: 'Kristen ITC',微軟正黑體,'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.register input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.register input[type=button]:active{
+	opacity: 0.6;
+}
+
+.register input[type=submit]:hover{
+	opacity: 0.8;
+}
+
+.register input[type=submit]:active{
+	opacity: 0.6;
+}
+
+.register input[type=text]:focus{
+	outline: none;
+	border: 1px solid #000;
+}
+
+.register input[type=email]:focus{
+	outline: none;
+	border: 1px solid #000;
+}
+
+.register input[type=password]:focus{
+	outline: none;
+	border: 1px solid #000;
+}
+
+
+::-webkit-input-placeholder{
+   color: #e7e3e3;
+}
+::-moz-input-placeholder{
+   color: #e7e3e3;
+}
+::-ms-input-placeholder{
+   color: #e7e3e3;
+}
+::-o-input-placeholder{
+   color: #e7e3e3;
+}
+
+/*register*/
